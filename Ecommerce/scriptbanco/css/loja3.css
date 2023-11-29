@@ -1,0 +1,160 @@
+html {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #444;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu li a:hover {
+    background-color: #555;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.menu li.menuloja {
+    float: right;
+}
+
+.formulario {
+    float: left;
+    margin-left: 10%;
+}
+
+.profile {
+    float: right;
+    margin: 7px 5px 0 0;
+}
+
+form {
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="decimal"],
+input[type="date"],
+input[type="file"],
+textarea {
+  background-color: #e0dceb;
+  border: none;
+  border-radius: 3px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  resize: none;
+  
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: #eee;
+    width: 75%;
+    margin: auto;
+}
+
+h2, h1, p {
+    color: #fff;
+}
+
+.caixaexclui {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.imagem_atual {
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 5%;
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.visualizaproduto {
+    background-color: #555;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    margin-left: 10px;
+    padding: 20px;
+    width: 500px;
+}
+
+.finalizabotao {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: smaller;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #2d93ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #007bff;
+}
+/* Estilos dos botões */
+div {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #2d93ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #007bff;
+}
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 30%; /* Defina a largura do produto para 30% para garantir três produtos por linha com algum espaçamento entre eles */
+    margin-bottom: 20px; /* Ajuste conforme necessário para o espaçamento vertical entre os produtos */
+}
